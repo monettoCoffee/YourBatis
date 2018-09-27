@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.monetto.dao.MapperDao">
+    <select id="getUserByName" resultType ="com.monetto.entry.User">
+        select * from eel_user where name = ?
+    </select>
+</mapper>
